@@ -1,0 +1,17 @@
+person: 
+  name: Nilesh Aggarwal
+  age: 25
+  gender: M
+  is_student: true
+  # multiple values (list of elements)
+  hobbies: 
+    - reading
+    - travelling
+    - hiking
+
+  # multiple data under single header
+  address: 
+    street: 123 11 Ave
+    city: sampleCity
+    postalCode: T3C0P1
+
