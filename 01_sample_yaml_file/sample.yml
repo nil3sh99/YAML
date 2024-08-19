@@ -3,15 +3,52 @@ person:
   age: 25
   gender: M
   is_student: true
-  # multiple values (list of elements)
+  # multiple values (list of elements) -- LIST
   hobbies: 
     - reading
     - travelling
     - hiking
 
-  # multiple data under single header
+  # multiple data under single header -- DICT
   address: 
     street: 123 11 Ave
     city: sampleCity
     postalCode: T3C0P1
+
+scalars:
+  hex: 0x12d6 # evalutes to a hex value
+  octal: 0o24432 # evaluates to an octal value
+  positive-infi: .inf # evaluates to positive inifinity
+  neg-infi: -.Inf # evaluates to negative infinity
+  invalidNumber: .NAN
+  null-value: null
+  null-value1: ~
+
+string_styles: 
+  plainstyle: NileshAggarwal
+  single_quote_style: 'text with : colon'
+  double_quote_style: "Line 1 \n Line 2 \n Line 3"
+
+long_strings: 
+  literal_block_style: |
+    Hello, my name is Nilesh Aggarwal
+    and I am a cloud devops engineer
+    working at a Fintech
+  folded_block_style: >
+    Hello, my name is Nilesh Aggarwal
+    and I am a cloud devops engineer
+    working at a Fintech.
+    Copy paste but without line break ;) 
+  literal_block_style_without_line_break: |+
+    Hello, my name is Nilesh Aggarwal
+    and I am a cloud devops engineer
+    working at a Fintech
+
+
+  folded_block_style_with_line_break: |-
+    Hello, my name is Nilesh Aggarwal
+    and I am a cloud devops engineer
+    working at a Fintech.
+    Copy paste but without line break ;)
+
 
