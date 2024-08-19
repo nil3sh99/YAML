@@ -33,5 +33,47 @@ YAML is not a programming language
 
 YAML is a superset of JSON
 
+Difference between XML, JSON and YAML
+In year 2000 --> XML was widely used
+In year 2010 --> JSON became popular
+From year 2018 --> YAML is popularly used for DevOps tools
+
+![alt text](image.png)
+
+##### Data Types
+
+- Scalars
+    - String
+    - Numbers
+    - Booleans
+    - Data and Time
+    - Null
+    - Binary
+
+- Collections
+    - Sequences
+        - List (duplicates allowed)
+        - Set (unique elements always)
+    - Mapping
+        - Sequence Mappings
+
+Single quotes ' ' in YAML do not interpret escape sequences
+Double quoutes " " in YAML supports escape sequences like \n, \t, \ etc.
+
+`See Example File == line 27 == sample.yml`
+
+Literal Block Style (|)
+- Multi line string
+- it preserves the line break
+
+Folded Block Style (>)
+- Multi-line string without line breaks
+- Line breaks are replaced with the space values
+
+If you specify a `-` symbol, then all the line breaks after the value in the script are removed, 
+If you want to retain the line breaks, then use the `+` symbol.
+
+`See Example File == line 32 == sample.yml`
+
 ##### Data Structures
 
